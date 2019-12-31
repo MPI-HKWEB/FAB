@@ -22,7 +22,7 @@ def connectDB():
     conn = pymssql.connect(
         server = '192.168.30.39',
         user = 'sa',
-        password = 'Cz61@admin',
+        password = 'password',
         database = 'FAB'
     )
     
